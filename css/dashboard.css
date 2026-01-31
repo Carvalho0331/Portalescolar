@@ -1,0 +1,118 @@
+aside{
+    background: linear-gradient(120deg, rgb(35, 57, 104), #1A2A5E);
+    position: fixed;
+    gap: 20px;
+    height: 100vh;
+    position: relative;
+}
+
+aside .set{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 35px;
+    background-color: #182751;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+aside .dashbord{
+    background-color: #1A2C5A;
+    padding: 20px;
+}
+aside .dashbord h1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.menu-box{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu ul li i{
+    color: #61bcbb;
+    margin-right: 20px;
+    font-size: 26px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active{
+    background-color: #344d83;
+}
+
+
+
+.main{
+    width: 100%;
+}
+
+
+.topbar{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(120deg, rgb(35, 57, 104), #1A2A5E);
+}
+
+
+.input-box{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.input-box input{
+    padding: 10px;
+    border: transparent;
+    border-radius: 20px;
+    width: 450px;
+    background-color: #3d589b;
+    color: #fff;
+    padding-left: 20px;
+    outline: none;
+}
+input:focus{
+    outline: 2px solid #fff;
+}
+
+.input-box input::placeholder{
+    color: #839dd6;
+    font-size: 15.5px;
+    text-transform: uppercase;
+}
+
+.ri-search-line{
+    font-size: 26px;
+    color: white;
+}
+
+.topbar-info{
+    display: flex;
+    font-size: 26px;
+    color:white;
+    gap: 20px;
+}
+
+.topbar-info .icon{
+    display: flex;
+    gap: 20px;
+}
