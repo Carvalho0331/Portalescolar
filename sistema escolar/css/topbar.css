@@ -1,0 +1,103 @@
+.main{
+    flex: 1;           /* ocupa o resto da tela */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-image: linear-gradient(120deg, #3c72d6, #123a83);
+    width: 100%; /* nunca 100vw */
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header .serch{
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #123a838f;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border: 1px solid #123a83;
+    position: relative;
+}
+
+.header .serch input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+}
+.header .serch input::placeholder{
+    color: #ffffff98;
+    text-transform: uppercase;
+}
+
+.header .serch button{
+    width: 50px;
+    height: 40px;
+    background-color: #123a83;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    border-radius: 0 20px 20px 0;
+}
+
+.noti{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.noti .info{
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.noti .info i{
+    cursor: pointer;
+}
+
+.noti .people{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.noti .people img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.733);
+}
+.noti .people p{
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+
+
