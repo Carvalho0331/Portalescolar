@@ -1,2 +1,3 @@
-@import url(./reset.css);
-@import url(./dashboard.css);
+@import url(topbar.css);
+@import url(restart.css);
+@import url(dashbord.css);
